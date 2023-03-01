@@ -29,3 +29,10 @@ c2.value = "Pieza"
 c3.value = "Pieza"
 wb.save("demo.xlsx") 
 
+# obtener los valores de las celdas
+nombre =productos['a1'].value
+edad = productos['b1'].value
+
+# imprimir los valores obtenidos
+print(f'Nombre: {nombre}')
+print(f'Edad: {edad}')
